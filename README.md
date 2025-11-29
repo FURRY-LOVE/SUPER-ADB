@@ -59,6 +59,4 @@ https://vk.com/dmitry_ginkel
 
 https://github.com/FURRY-LOVE/ (в профиле ссылки на соцсети)
 
-https://4pda.to/forum/index.php?showtopic=1114898
-
 СКАЧАТЬ : https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link
