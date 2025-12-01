@@ -22,7 +22,7 @@
 - 
 - <span style="color: #FF5722;">**JADX**</span> - декомпилятор и редактор APK/LIB файлов и Java-пакетов [Подробнее](https://github.com/skylot/jadx)
 - 
-- <span style="color: #9C27B0;">**Multi Image Tools**</span> - инструмент для модификации разделов прошивки Android (system.img и др.) [Подробнее](https://4pda.to/forum/index.php?showtopic=1017768)
+- <span style="color: #9C27B0;">**Multi Image Tool/Kitchen**</span> - инструмент для модификации разделов прошивки Android (system.img и др.) [Подробнее](https://4pda.to/forum/index.php?showtopic=1017768)
 - 
 - <span style="color: #2196F3;">**MyPhoneExplorer**</span> - управление Android 0.0.1-8.8.8 (особенно для старых версий android<7) [Подробнее](https://4pda.to/forum/index.php?showtopic=191898)
 - 
