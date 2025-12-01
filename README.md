@@ -44,7 +44,7 @@ MИНИМАЛЬНЫЕ] windows 7 x64 ,
 РАСПРОСТРАНЕНИЕ РАЗРЕШЕНО НО С ОБЯЗАТЕЛЬНЫМ УКАЗАНИЕМ: СОЗДАТЕЛЯ И ССЫЛКИ НА ИСХОДНИКИ, ИЗМЕНЕНИЕ РАЗРЕШЕНО (ОБ BСЕХ ИЗМЕНЕНИЯХ ПРОГРАММЫ СООБЩАТЬ СОЗДАТЕЛЮ (ЕСТЕСТВЕННО В ЦЕЛЯХ ИЗМЕНЕНИЯ ИСХОДНОГО КОДА ) 
 
 
-СКАЧАТЬ : https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link"]drive.google
+СКАЧАТЬ : https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link
 
 ознокомление с функциями
-[https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/ADB.BAT"]https://github.com/FUR…-ADB/blob/main/ADB.BA](https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/ADB.BAT)
+https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/ADB.BAT
