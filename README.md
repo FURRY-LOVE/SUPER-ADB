@@ -1,7 +1,9 @@
-[size=3][b][color=blue]ADB-PRO[/size][/b][/color]
+
 представляю вам мою сборку ADB (ADB-PRO)
 В в ней собрано очень много ультилит/программ для ADB/ANDROID
-[spoiler=[color=limegreen]в сборку входит[/color]:]драйвера всех/для всех устройств android/adb/fastboot/port/mtp/internet-controller
+в сборку входит 
+
+драйвера всех/для всех устройств android/adb/fastboot/port/mtp/internet-controller
 
 jadx - программа для редактирования *.apk *.lib все виды пакетов написаных на/для JAVA
 
@@ -25,22 +27,24 @@ ResearchDownload - программа для прошивки смартфоно
 
 SP Flash Tool - Позволяет загружать и обновлять прошивки, форматировать разделы памяти, восстанавливать устройства после неудачных обновлений и д.р
 
-И МНОГИЕ ДРУГИЕ.[/spoiler]
+И МНОГИЕ ДРУГИЕ.
 
 управление автоматизация всем происходит за штет ADB.BAT меню на основе windows cmd в которою входит очень много функций
 
-[spoiler=поддержка систем/язык/кодировка: ][color=limegreen]РЕКУМЕНДУЕМЫЕ[/color]: windows 10-11 X64,
-[color=crimson]MИНИМАЛЬНЫЕ[/color] windows 7 x64 , 
+поддержка систем/язык/кодировка: 
+РЕКУМЕНДУЕМЫЕ: windows 10-11 X64,
+MИНИМАЛЬНЫЕ] windows 7 x64 , 
 НЕ РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ В WINDOWS x86 !
 язык:РУССКИЙ (не включая программы )
-кодировка:UTF8/UNICODE[/spoiler]
+кодировка:UTF8/UNICODE
 
 интерфейс прост и понятен.
 
-[spoiler=[color=orangered]ВНИМАНИЕ[/color] !]РАСПРОСТРАНЕНИЕ РАЗРЕШЕНО НО С ОБЯЗАТЕЛЬНЫМ УКАЗАНИЕМ: СОЗДАТЕЛЯ И ССЫЛКИ НА ИСХОДНИКИ, ИЗМЕНЕНИЕ РАЗРЕШЕНО (ОБ BСЕХ ИЗМЕНЕНИЯХ ПРОГРАММЫ СООБЩАТЬ СОЗДАТЕЛЮ (ЕСТЕСТВЕННО В ЦЕЛЯХ ИЗМЕНЕНИЯ ИСХОДНОГО КОДА ) 
-[url="https://github.com/FURRY-LOVE/"]github.com[/url][/spoiler]
+ВНИМАНИЕ
+РАСПРОСТРАНЕНИЕ РАЗРЕШЕНО НО С ОБЯЗАТЕЛЬНЫМ УКАЗАНИЕМ: СОЗДАТЕЛЯ И ССЫЛКИ НА ИСХОДНИКИ, ИЗМЕНЕНИЕ РАЗРЕШЕНО (ОБ BСЕХ ИЗМЕНЕНИЯХ ПРОГРАММЫ СООБЩАТЬ СОЗДАТЕЛЮ (ЕСТЕСТВЕННО В ЦЕЛЯХ ИЗМЕНЕНИЯ ИСХОДНОГО КОДА ) 
 
-[color=blue]СКАЧАТЬ[/color] : [url="https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link"]drive.google[/url]
 
-[spoiler][color=deeppink]ознокомление с функциями[/color]
-[url="https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/ADB.BAT"]https://github.com/FUR…-ADB/blob/main/ADB.BAT[/url][/spoiler]
+СКАЧАТЬ : https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link"]drive.google
+
+ознокомление с функциями
+[https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/ADB.BAT"]https://github.com/FUR…-ADB/blob/main/ADB.BA](https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/ADB.BAT)
