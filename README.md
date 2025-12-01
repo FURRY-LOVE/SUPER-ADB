@@ -105,7 +105,7 @@
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
 <a href="https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link">
-  <img src="https://img.shields.io/badge/СКАЧАТЬ_СБОРКУ_770_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_770_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
