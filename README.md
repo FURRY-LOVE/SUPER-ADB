@@ -40,7 +40,7 @@ MИНИМАЛЬНЫЕ] windows 7 x64 ,
 
 интерфейс прост и понятен.
 
-ПО ВСЕМ ПРОБЛЕМАМ, ПРЕДЛОЖЕНИЯМ https://github.com/FURRY-LOVE/SUPER-ADB/discussions/1
+ПО ВСЕМ ПРОБЛЕМАМ, ПРЕДЛОЖЕНИЯМ -> https://github.com/FURRY-LOVE/SUPER-ADB/discussions/ ( https://github.com/FURRY-LOVE/SUPER-ADB/discussions/1 )
 
 СКАЧАТЬ : https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link
 
