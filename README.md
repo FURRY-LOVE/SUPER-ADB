@@ -44,6 +44,7 @@ MИНИМАЛЬНЫЕ] windows 7 x64 ,
 
 СКАЧАТЬ : https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link
 
+ВСЕ ПОДРОБНОСТИ  
 https://4pda.to/forum/index.php?showtopic=383300&view=findpost&p=140558013
 
 ознокомление с функциями
