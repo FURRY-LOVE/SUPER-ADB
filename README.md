@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-1.1.1_(BETA)-blue?style=flat-square" alt="Версия">
+  <img src="https://img.shields.io/badge/Версия-1.1.2_(BETA)-blue?style=flat-square" alt="Версия">
   <img src="https://img.shields.io/badge/Windows-10|11|7-0078D6?style=flat-square&logo=windows" alt="Windows">
   <img src="https://img.shields.io/badge/Архитектура-x64-important?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/Язык-Русский-red?style=flat-square" alt="Русский">
