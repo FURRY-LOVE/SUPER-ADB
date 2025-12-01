@@ -51,9 +51,9 @@ MИНИМАЛЬНЫЕ windows 7 x64 ,
 
 версия: 1.1.1
 
-скачать : [drive.google](https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link)
+скачать : [google](https://drive.google.com/file/d/1YNcEOEv3zqUNcpKM3fXmSiGfb-nThl3M/view?usp=drive_link)
 
-ПО ВСЕМ ПРОБЛЕМАМ, ПРЕДЛОЖЕНИЯМ -> [ПРЕДЛОЖЕНИЯ](https://github.com/FURRY-LOVE/SUPER-ADB/discussions/) [тема](https://github.com/FURRY-LOVE/SUPER-ADB/discussions/1)
+ПО ВСЕМ ПРОБЛЕМАМ, ПРЕДЛОЖЕНИЯМ -> [ПРЕДЛОЖЕНИЯ](https://github.com/FURRY-LOVE/SUPER-ADB/discussions/) или [тема](https://github.com/FURRY-LOVE/SUPER-ADB/discussions/1)
 
 ознокомление с функциями меню
 
