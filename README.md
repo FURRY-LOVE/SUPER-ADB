@@ -104,8 +104,9 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-<a href="0">
-  <img src="https://img.shields.io/badge/НОВАЯ-ВЕРСИЯ-1.1.2-БУДЕТ-ДОСТУПНА-01.12.2025-18:00-ПО-МСК-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+<a href="НОВАЯ_ВЕРСИЯ_1.1.2_БУДЕТ_ДОСТУПНА_01.12.2025_18:00_ПО_МСК">
+  НОВАЯ_ВЕРСИЯ_1.1.2_БУДЕТ_ДОСТУПНА_01.12.2025_18:00_ПО_МСК
+  <img src="https://img.shields.io/badge/СКЧАТЬ_770_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
