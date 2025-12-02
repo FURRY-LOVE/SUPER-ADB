@@ -105,8 +105,10 @@
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
 <a href="НОВАЯ_ВЕРСИЯ_1.1.2_БУДЕТ_ДОСТУПНА_01.12.2025_18:00_ПО_МСК">
-  НОВАЯ_ВЕРСИЯ_1.1.2_БУДЕТ_ДОСТУПНА_01.12.2025_18:00_ПО_МСК
+  GOOGLE.DRIVE временно недоступен
   <img src="https://img.shields.io/badge/СКЧАТЬ_801_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+<a href="https://cloud.mail.ru/public/PKUw/DfvNtbqGx">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_802_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
