@@ -109,10 +109,10 @@
 </a>
 </div>
 
-## 🆘 **Поддержка и обратная связь**
+## 🆘 **Поддержка, обратная связь, предложения**
 <div align="center">
 <a href="https://github.com/FURRY-LOVE/SUPER-ADB/discussions/">
-  <img src="https://img.shields.io/badge/Предложения_и_обсуждения-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="Обсуждения">
+  <img src="https://img.shields.io/badge/Предложения_и_обсуждения-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="Обсуждение, предложения">
 </a>
 
 <a href="https://github.com/FURRY-LOVE/SUPER-ADB/discussions/1" style="margin-left: 20px;">
@@ -124,3 +124,5 @@
 ```bash
 📁 размер после установки: ~3-4 GB
 📁 размер при скачивании: ~700-900 MB
+ВНИМАНИЕ !
+ДЛЯ УСТАНОВКИ НОВОЙ ВЕРСИИ УДАЛИТЕ СТАРУЮ
