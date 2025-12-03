@@ -108,7 +108,7 @@
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
 <a href="https://drive.google.com/file/d/1v1m8hkm3JAZCZ8wPgv68z6f8arB1qBiw/view?usp=drive_link">
-  <img src="https://img.shields.io/badge/СКAЧАТЬ_817_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКAЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/qbi8/2WPCQgn19">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
@@ -119,7 +119,6 @@
 <a href="https://github.com/FURRY-LOVE/SUPER-ADB/discussions/">
   <img src="https://img.shields.io/badge/Предложения_и_обсуждения-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="Обсуждение, предложения">
 </a>
-
 <a href="https://github.com/FURRY-LOVE/SUPER-ADB/discussions/1" style="margin-left: 20px;">
   <img src="https://img.shields.io/badge/Основная_тема-FF5722?style=for-the-badge" alt="Тема">
 </a>
@@ -128,7 +127,7 @@
 ## 📊 **Статистика сборки**
 ```bash
 📁 размер после установки: ~3-4 GB
-📁 размер при скачивании: ~700-900 MB
+📁 размер при скачивании: ~800-900 MB
  ТЕКУЩАЯ ВЕРСИЯ 1.1.2
 ВНИМАНИЕ !
 ДЛЯ УСТАНОВКИ НОВОЙ ВЕРСИИ УДАЛИТЕ СТАРУЮ
