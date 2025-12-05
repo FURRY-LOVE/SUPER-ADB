@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-1.1.2_(BETA)-blue?style=flat-square" alt="Версия">
+  <img src="https://img.shields.io/badge/Версия-1.1.3_(BETA)-blue?style=flat-square" alt="Версия">
   <img src="https://img.shields.io/badge/Windows-10|11|7-0078D6?style=flat-square&logo=windows" alt="Windows">
   <img src="https://img.shields.io/badge/Архитектура-x64-important?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/Язык-Русский-red?style=flat-square" alt="Русский">
@@ -15,7 +15,10 @@
 <div align="center">
   <h2>🚀 <span style="color: #ff6600;">Представляю вам мою сборку ADB-PRO</span></h2>
   <p>В ней собрано очень много утилит/программ для работы с ADB/Android устройствами</p>
-  <p>Что нового в v1.1.2 : Фикс багов adb.bat, обновление программ <p>
+  <p>Что нового в v1.1.3 :ДОБАВЛЕН РУССКИЙ ЯЗЫК В 
+Xiaomi:
+MiFlash, account_auth, LoginPro.<p>
+<p>мелкая доработка меню, устранение ошибок, оптимизация <p>
 </div>
 
 ## 📦 <span style="color: #00aaff;">Содержимое сборки/Как использовать </span>
@@ -107,9 +110,10 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-<a href="https://drive.google.com/file/d/1v1m8hkm3JAZCZ8wPgv68z6f8arB1qBiw/view?usp=drive_link">
+  GOOGLE DRIVE ВРЕМЕННО НЕДОСТУПЕН
+<a href="0">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
-<a href="https://cloud.mail.ru/public/qbi8/2WPCQgn19">
+<a href="https://cloud.mail.ru/public/vET5/AXRuTpLXM">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
@@ -128,6 +132,6 @@
 ```bash
 📁 размер после установки: ~3-4 GB
 📁 размер при скачивании: ~800-900 MB
- ТЕКУЩАЯ ВЕРСИЯ 1.1.2
+ ТЕКУЩАЯ ВЕРСИЯ 1.1.3
 ВНИМАНИЕ !
 ДЛЯ УСТАНОВКИ НОВОЙ ВЕРСИИ УДАЛИТЕ СТАРУЮ
