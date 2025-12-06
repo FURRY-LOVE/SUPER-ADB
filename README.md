@@ -113,8 +113,7 @@ MiFlash, account_auth, LoginPro.<p>
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-  GOOGLE DRIVE ВРЕМЕННО НЕДОСТУПЕН
-<a href="0">
+<a href="https://drive.google.com/file/d/1o-rq-DoGkYON2Uoo6cWN7HXI3XdAPZQc/view?usp=sharing">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/vET5/AXRuTpLXM">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
