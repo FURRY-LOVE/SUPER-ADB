@@ -5,16 +5,19 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-1.1.3_(BETA)-blue?style=flat-square" alt="Версия">
+  <img src="https://img.shields.io/badge/Версия-1.1.4-blue?style=flat-square" alt="Версия">
   <img src="https://img.shields.io/badge/Windows-10|11|7-0078D6?style=flat-square&logo=windows" alt="Windows">
   <img src="https://img.shields.io/badge/Архитектура-x64-important?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/Язык-Русский-red?style=flat-square" alt="Русский">
-  <img src="https://img.shields.io/badge/Режим-PORTABLE_BETA-blue?style=flat-square" alt="Portable">
+  <img src="https://img.shields.io/badge/Режим-PORTABLE-blue?style=flat-square" alt="Portable">
 </p>
 
 <div align="center">
   <h2>🚀 <span style="color: #ff6600;">Представляю вам мою сборку ADB-PRO</span></h2>
   <p>В ней собрано очень много утилит/программ для работы с ADB/Android устройствами</p>
+  </p>
+  ПРОГРАММА ЗАЩИЩЕНА ЛИЦЕНЗИЕЙ GNU General Public License (GPL).
+</p>
   <p>Что нового в v1.1.4 : Добавлена программа SP Flash Tool+mtk_bypass
 <p>мелкая доработка меню, устранение ошибок <p>
 </div>
@@ -121,8 +124,8 @@
 - **Кодировка:** UTF-8 / UNICODE
 - **Режим работы:** PORTABLE
 - **Версия:** 1.1.4
-- **ВНИМАНИЕ** Автор не несёт ответственность за сборку и ваши действия !
-
+- **ВНИМАНИЕ** Автор не несёт ответственность за сборку, ваши действия и последствия !
+- ПРОГРАММА ЗАЩИЩЕНА ЛИЦЕНЗИЕЙ GNU General Public License (GPL).
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
@@ -151,3 +154,5 @@
 ВНИМАНИЕ !
 ДЛЯ УСТАНОВКИ НОВОЙ ВЕРСИИ УДАЛИТЕ СТАРУЮ
 ПРОГРАММА СОБРАНА ИЗ ИСХОДНИКОВ И ОТКРЫТОГО КОДА !
+ПРОГРАММА ЗАЩИЩЕНА ЛИЦЕНЗИЕЙ GNU General Public License (GPL).
+
