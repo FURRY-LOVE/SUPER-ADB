@@ -126,11 +126,10 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-  загрузка временно недоступна простите за неудобство 
-  ИДЕТ ЗАГРУЗКА ВЕРСИИ 1.1.4
+  загрузка GOOGLE временно недоступна простите за неудобство 
 <a href="0">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
-<a href="0">
+<a href="https://cloud.mail.ru/public/R9X1/oTP7LpDsX">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_818_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
