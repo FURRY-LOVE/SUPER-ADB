@@ -3,13 +3,30 @@
 :: chcp 65001 //РУССКИЙ ЯЗЫК
 
 @echo off
-title ADB-PRO V 1.1.2
+title ADB-PRO V 1.1.4
 chcp 65001
 CLS
-echo СЛИДИТЕ ЗА ОБНОВЛЕНИЯМИ В GITHUB И 4PDA BАША ВЕРСИЯ 1.1.2!
+echo СЛИДИТЕ ЗА ОБНОВЛЕНИЯМИ В GITHUB И 4PDA BАША ВЕРСИЯ 1.1.4!
 timeout /t 5 >NUL
 color 1
-ECHO <СКРЫТО ДЛЯ ПРОСМОТРА>                                                                                              
+ECHO ░█████████  ░█████████    ░██████   ░███████   ░██     ░██   ░██████  ░██████████░██████  ░██████   ░███    ░██       
+ECHO ░██     ░██ ░██     ░██  ░██   ░██  ░██   ░██  ░██     ░██  ░██   ░██     ░██      ░██   ░██   ░██  ░████   ░██       
+ECHO ░██     ░██ ░██     ░██ ░██     ░██ ░██    ░██ ░██     ░██ ░██            ░██      ░██  ░██     ░██ ░██░██  ░██       
+ECHO ░█████████  ░█████████  ░██     ░██ ░██    ░██ ░██     ░██ ░██            ░██      ░██  ░██     ░██ ░██ ░██ ░██       
+ECHO ░██         ░██   ░██   ░██     ░██ ░██    ░██ ░██     ░██ ░██            ░██      ░██  ░██     ░██ ░██  ░██░██       
+ECHO ░██         ░██    ░██   ░██   ░██  ░██   ░██   ░██   ░██   ░██   ░██     ░██      ░██   ░██   ░██  ░██   ░████       
+ECHO ░██         ░██     ░██   ░██████   ░███████     ░██████     ░██████      ░██    ░██████  ░██████   ░██    ░███       
+                                                                                                                      
+                                                                                                                      
+ECHO.                                                                                                                       
+ECHO   ░██████   ░█████████        ░██████████░██     ░██ ░█████████  ░█████████  ░██     ░██                              
+ECHO  ░██   ░██  ░██     ░██       ░██        ░██     ░██ ░██     ░██ ░██     ░██  ░██   ░██                               
+ECHO ░██     ░██ ░██     ░██       ░██        ░██     ░██ ░██     ░██ ░██     ░██   ░██ ░██                                
+ECHO ░██     ░██ ░█████████        ░█████████ ░██     ░██ ░█████████  ░█████████     ░████                                 
+ECHO ░██     ░██ ░██   ░██         ░██        ░██     ░██ ░██   ░██   ░██   ░██       ░██                                  
+ECHO  ░██   ░██  ░██    ░██        ░██         ░██   ░██  ░██    ░██  ░██    ░██      ░██                                  
+ECHO   ░██████   ░██     ░██       ░██          ░██████   ░██     ░██ ░██     ░██     ░██     LIKE                             
+ECHO ( Дмитрий Гинкель VK: @dmitry_ginkel )                                                                                              
 timeout /t 5 >NUL
 
 :XXX
@@ -168,7 +185,7 @@ echo ║    7   =   КОМАНДЫ ADB/FASTBOOT/SHELL                           
 echo ║————————————————————————————————————————————————————————————————————————║
 echo ║    8  =    РЕЗЕРВНАЯ КОПИЯ                                             ║
 echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    9  =    ДЛЯ ANDROID 0-8                                             ║
+echo ║    9  =    ПРОВЕРИТЬ ОБНОВЛЕНИЕ СБОРКИ                                 ║
 echo ║————————————————————————————————————————————————————————————————————————║
 echo ║    10  =   СКРИНШОТ                                                    ║
 echo ║————————————————————————————————————————————————————————————————————————║
@@ -186,7 +203,7 @@ IF %menunr%==5 (START ADBAppControl.exe)
 IF %menunr%==6 (goto INSTALL)
 IF %menunr%==7 (ADB.TXT)
 IF %menunr%==8 (GOTO BACKUP)
-IF %menunr%==9 (adb install "MyPhoneExplorer\DLL\mpeclient.apk" & START MyPhoneExplorer/portable.exe )
+IF %menunr%==9 (START https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/README.md )
 IF %menunr%==10 (adb shell screencap -p /sdcard/screencap.png && adb pull /sdcard/screencap.png & screencap.png & goto menu)
 IF %menunr%==11 (goto MENU2)
 IF %menunr%==12 (goto EXIT)
@@ -213,7 +230,7 @@ echo ║    6   =   scrcpy                                                      
 echo ║————————————————————————————————————————————————————————————————————————║
 echo ║    7   =   РЕДАКТОР APK                                                ║ 
 echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    8   =   ПЕРЕЗАПУСК В FASTBOOT                                       ║
+echo ║    8   =   ДЛЯ ANDROID 0-8                                             ║
 echo ║————————————————————————————————————————————————————————————————————————║
 echo ║    9   =   TFT                                                         ║
 echo ║————————————————————————————————————————————————————————————————————————║
@@ -230,8 +247,8 @@ IF %MENU2%==4 (GOTO WIPE)
 IF %MENU2%==5 (goto PAROL)
 IF %MENU2%==6 (scrcpy\scrcpy.bat)
 IF %MENU2%==7 (jadx\jadx-gui-1.5.3.exe)
-IF %MENU2%==8 (adb reboot bootloader & GOTO MENU2)
-IF %MENU2%==9 (TFTUnlock\TFT_SERVER.exe)
+IF %MENU2%==8 (adb install "MyPhoneExplorer\DLL\mpeclient.apk" & START MyPhoneExplorer/portable.exe)
+IF %MENU2%==9 (TFTUnlock\tft.bat)
 IF %MENU2%==10 (GOTO MENU3)
 IF %MENU2%==11 (GOTO MENU)
 GOTO MENU
@@ -1002,7 +1019,7 @@ echo ╚════════════════════════
 
 SET /P ZECT=ВЫБОР:
 
-IF %ZECT%==1 (start 1.cmd & GOTO MENU)
+IF %ZECT%==1 (start SIMULNOECR.CMD & GOTO MENU)
 IF %ZECT%==2 (adb shell input keyevent KEYCODE_BACK)
 IF %ZECT%==3 (adb shell input keyevent KEYCODE_DPAD_UP)
 IF %ZECT%==4 (adb shell input keyevent KEYCODE_DPAD_DOWN)
@@ -1040,7 +1057,7 @@ echo ║   5   =   MIT                                                          
 echo ║════════════════════════════════════════════════════════════════════════║
 echo ║   6   =   TFT                                                          ║
 echo ║════════════════════════════════════════════════════════════════════════║
-echo ║   7   =                                                             ║
+echo ║   7   =   SPFLASTOOL+Bypass                                            ║
 echo ║════════════════════════════════════════════════════════════════════════║
 echo ║   8   =                                                           ║
 echo ║════════════════════════════════════════════════════════════════════════║
@@ -1053,17 +1070,17 @@ echo ╚════════════════════════
 
 SET /P MENU3=ВЫБОР:
 
-IF %MENU3%==1 (TFTUnlock\Data\bin\ResearchDownload.exe)
-IF %MENU3%==2 (TFTUnlock\Data\MTK\mtk.exe)
+IF %MENU3%==1 (TFTUnlock\Data\bin\tft.bat)
+IF %MENU3%==2 (TFTUnlock\Data\MTK\tft.bat)
 IF %MENU3%==3 (MiFlash\XiaoMiFlash.exe)
 IF %MENU3%==4 (MITK\mik\MIK.exe)
 IF %MENU3%==5 (MITK\mit\MIT.exe)
-IF %MENU3%==6 (TFTUnlock\TFT_SERVER.exe)
-IF %MENU3%==7 ()
+IF %MENU3%==6 (TFTUnlock\tft.bat)
+IF %MENU3%==7 (SP+Bypass\SP.bat)
 IF %MENU3%==8 ()
 IF %MENU3%==9 ()
 IF %MENU3%==10 ()
-IF %MENU3%==11 (goto menu)
+IF %MENU3%==11 (GOTO menu)
 GOTO MENU3
 
 
@@ -1107,4 +1124,3 @@ GOTO MENU3
 
 :EXIT
 TASKKILL /IM ADB.EXE /T /f & TASKKILL /IM fastboot.exe /T /f & EXIT /B
-
