@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Архитектура-x64-important?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/Язык-Русский-red?style=flat-square" alt="Русский">
   <img src="https://img.shields.io/badge/Режим-PORTABLE-blue?style=flat-square" alt="Portable">
-  <img src="https://img.shields.io/badge/GPL-2.0-blue?style=flat-square" alt="Лицензия">
+  <img src="https://img.shields.io/badge/Лицензия-GPL_2.0-blue?style=flat-square" alt="Лицензия">
 </p>
 
 <div align="center">
