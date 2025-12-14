@@ -5,8 +5,8 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-1.1.4-blue?style=flat-square" alt="Версия">
-  <img src="https://img.shields.io/badge/Windows-10|11|7-0078D6?style=flat-square&logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/Версия-1.1.5-blue?style=flat-square" alt="Версия">
+  <img src="https://img.shields.io/badge/Windows-10|11-0078D6?style=flat-square&logo=windows" alt="Windows">
   <img src="https://img.shields.io/badge/Архитектура-x64-important?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/Язык-Русский-red?style=flat-square" alt="Русский">
   <img src="https://img.shields.io/badge/Режим-PORTABLE-blue?style=flat-square" alt="Portable">
@@ -18,8 +18,8 @@
   </p>
    Сборка защищена лицензией General Public License v2 (GPL-2.0).
 </p>
-  <p>Что нового в v1.1.4 : Добавлена программа SP Flash Tool+mtk_bypass
-<p>мелкая доработка меню, устранение ошибок <p>
+  <p>Что нового в v1.1.5 : исправлены ошибки scropy (tcp, otg) 
+<p>изменение меню, устранение ошибок <p>
 </div>
 
 ## 📦 <span style="color: #00aaff;">Содержимое сборки/Как использовать </span>
@@ -104,18 +104,18 @@
 </tr>
 <tr>
   <td align="center">✅ <strong>Рекомендуемые</strong></td>
-  <td align="center">Windows 10-11 x64</td>
+  <td align="center">Windows 11 x64</td>
   <td align="center"><span style="color: #4CAF50;">Идеальная работа</span></td>
 </tr>
 <tr>
   <td align="center">⚠️ <strong>Минимальные</strong></td>
-  <td align="center">Windows 7 x64</td>
+  <td align="center">Windows 10 x64</td>
   <td align="center"><span style="color: #FF9800;">Возможны ограничения</span></td>
 </tr>
 <tr>
   <td align="center">❌ <strong>Не рекомендуется</strong></td>
-  <td align="center">Windows x86</td>
-  <td align="center"><span style="color: #F44336;">НЕРАБОТОСПОСОБНОСТЬ</span></td>
+  <td align="center">Windows x86, Windows 7</td>
+  <td align="center"><span style="color: #F44336;">множественые ошибки</span></td>
 </tr>
 </table>
 
@@ -123,7 +123,7 @@
 - **Язык интерфейса:** <span style="color: #F44336;">Русский</span> (программы на оригинальном языке)
 - **Кодировка:** UTF-8 / UNICODE
 - **Режим работы:** PORTABLE
-- **Версия:** 1.1.4
+- **Версия:** 1.1.5
 - **ВНИМАНИЕ** Автор не несёт ответственность за сборку, ваши действия и последствия !
 -  Сборка защищена лицензией General Public License v2 (GPL-2.0).
 
@@ -133,7 +133,7 @@
 <a href="0">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_835_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/R9X1/oTP7LpDsX">
-  <img src="https://img.shields.io/badge/СКАЧАТЬ_835_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_v1.1.4_835_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
