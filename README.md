@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://img.shields.io/badge/ADB-PRO-00ff00?style=for-the-badge&logo=android&logoColor=white" alt="ADB-PRO">
   <br>
-  <span style="color: #00ff00; text-shadow: 0 0 10px #00ff00;">ADB-PRO</span> - Универсальная сборка для работы с Android/adb
+  <span style="color: #00ff00; text-shadow: 0 0 10px #00ff00;">ADB-PRO</span> - Универсальная сборка для работы с Android/adb/shell/fastboot/edl
 </h1>
 
 <p align="center">
@@ -70,8 +70,10 @@
 - <span style="color: #009688;">**SP-Flash-Tool+mtk_bypass**</span>
 -  программа для прошивки телефонов и планшетов на базе MTK
 -  [Подробнее](https://4pda.to/forum/index.php?showtopic=469340&st=30980)
+-  
 -  mtk_bypass
 -  утилита для обхода аутентификации на смартфонах и планшетах на базе MediaTek
+-  
 -  *КАК ИСПОЛЬЗОВАТЬ*:
 -  запустить байпасс и нажать на кнопку ( BYPASS ) после дождатся надписи ( WAITING FROM BROM )
 -  после этого зажать на  телефоне кнопку (vol- или vol+) или (зажать все ( vol+ и vol- вместе )
