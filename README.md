@@ -133,11 +133,12 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-  ВЕРСИЯ в mail  1.1.4 в GOOGLE 1.1.5
+  ВЕРСИЯ в mail  1.1.4 
+  в GOOGLE 1.1.5
 <a href="https://drive.google.com/file/d/1cR2YtrQrzwliReCIZdzU3okRlp-nkW00/view?usp=drive_link">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.5_882_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/R9X1/oTP7LpDsX">
-  <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.4_882_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.4_872_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
