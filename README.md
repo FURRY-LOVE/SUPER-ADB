@@ -133,7 +133,7 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-  загрузка GOOGLE временно недоступна простите за неудобство 
+  загрузка GOOGLE и загрузка  v1.1.5 временно недоступна простите за неудобство 
 <a href="0">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_835_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/R9X1/oTP7LpDsX">
