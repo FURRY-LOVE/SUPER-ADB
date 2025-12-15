@@ -19,7 +19,7 @@
   </p>
    Сборка защищена лицензией General Public License v2 (GPL-2.0).
 </p>
-  <p>Что нового в v1.1.5 : исправлены ошибки scropy (tcp, otg) зделан одекватный вид команд (adb.txt). 
+  <p>Что нового в v1.1.5 : исправлены ошибки scropy (tcp, otg) зделан одекватный и понятный вид команд (adb.txt). 
     <p>Добавлены новые пункты для меню (ОЧИСТКА РАЗДЕЛОВ И ПРОШИB)<p>
 <p>изменение меню, устранение ошибок <p>
 </div>
@@ -133,11 +133,11 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-  загрузка GOOGLE и загрузка  v1.1.5 временно недоступна простите за неудобство 
-<a href="0">
-  <img src="https://img.shields.io/badge/СКAЧАТЬ_835_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+  загрузка из mail временно недоступна простите за неудобство 
+<a href="https://drive.google.com/file/d/1cR2YtrQrzwliReCIZdzU3okRlp-nkW00/view?usp=drive_link">
+  <img src="https://img.shields.io/badge/СКAЧАТЬ_882_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/R9X1/oTP7LpDsX">
-  <img src="https://img.shields.io/badge/СКАЧАТЬ_v1.1.4_835_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_882_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
