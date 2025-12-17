@@ -3,15 +3,28 @@
 :: chcp 65001 //РУССКИЙ ЯЗЫК
 
 @echo off
-title ADB-PRO V 1.1.4
+title ADB-PRO V 1.1.5
 chcp 65001
 CLS
-echo СЛИДИТЕ ЗА ОБНОВЛЕНИЯМИ В GITHUB И 4PDA BАША ВЕРСИЯ 1.1.4!
-timeout /t 5 >NUL
+COLOR B
+echo СЛИДИТЕ ЗА ОБНОВЛЕНИЯМИ В GITHUB И 4PDA BАША ВЕРСИЯ 1.1.5!
+timeout /t 3 >NUL
 color 1
-ECHO (ЭТА ЧАСТЬ СКРЫТА)              
-ECHO ( Дмитрий Гинкель VK: @dmitry_ginkel )                                                                                              
-timeout /t 5 >NUL
+ECHO.                           
+ECHO   СОЗДАТЕЛИ/ПОДДЕРЖКА                                                     
+ECHO.                                                 
+ECHO   Дмитрий Гинкель                                        
+ECHO.                                              
+ECHO   TG: @Dima_Ginkel                                                        
+ECHO.                                                                                                                                                                       
+ECHO   VK: @dmitry_ginkel                                                                                                                    
+ECHO.                                             
+ECHO   GITHUB: FURRY-LOVE                                                  
+ECHO.                                                                                                               
+ECHO.                                               
+ECHO   ИДЕТ ЗАПУСК ПОЖАЛУЙСТА ПОДОЖДИТЕ                                                
+                                                                                          
+timeout /t 7 >NUL
 
 :XXX
 cls
@@ -88,7 +101,7 @@ goto menu
 :INFO
 color 4
 echo ╔════════════════════════════════════════════════════════════════════════╗
-echo ║                 ВЫПОЛНЯЕТСЯ ЗАПУСК И ПОИСК УСТРОЙСТВ                   ║
+echo ║                 ВЫПОЛНЯЕТСЯ СБОР ИНФОРМАЦИИ УСТРОЙСТВА                 ║
 echo ╚════════════════════════════════════════════════════════════════════════╝
 
 adb devices
@@ -102,14 +115,13 @@ for /F "delims=" %%a in ('adb shell getprop ro.build.id') do set ID=%%a
 for /F "delims=" %%a in ('adb shell getprop ro.build.version.security_patch') do set SECURITY=%%a
 for /F "delims=" %%a in ('adb shell cat /proc/version') do set CERNEL=%%a
 for /F "delims=" %%a in ('adb shell getprop ro.build.date') do set BLT=%%a
-for /F "delims=" %%a in ('adb shell service call iphonesubinfo 1') do set IMEI=%%a 
 for /F "delims=" %%a in ('adb shell getprop ro.product.manufacturer') do set MANU=%%a
 for /F "delims=" %%a in ('adb shell getprop ro.build.version.sdk') do set SDK=%%a
 for /F "delims=" %%a in ('adb shell getprop ro.serialno') do set SERIA=%%a
 for /F "delims=" %%a in ('adb shell ip route') do set IP=%%a
-for /F "delims=" %%a in ('adb shell getprop ro.product.cpu.abi') do set cpu=%%a
+for /F "delims=" %%a in ('adb shell getprop ro.system.product.cpu.abilist') do set cpu=%%a
 for /F "delims=" %%a in ('adb shell getprop ro.build.display.id') do set display=%%a
-for /F "delims=" %%a in ('adb shell cat /sys/class/net/wlan0/address') do set MAC=%%a
+for /F "delims=" %%a in ('adb shell getprop ro.vendor_dlkm.build.fingerprint') do set DLKM=%%a
 
 
 
@@ -128,14 +140,13 @@ echo АНДРОИД:                       %ANDROID%
 echo ПРОШИФКА:                      %ID%
 echo БЕЗОПАСНОСТЬ:                  %SECURITY%
 echo дата сборки ядра:              %BLT%
-echo IMEI:                          %IMEI%
 echo ВЕРСИЯ ЯДРА:                   %CERNEL%
 echo Производитель:                 %MANU%
 echo API:                           %SDK%
 echo Серийный номер:                %SERIA%
 echo Архитектура:                   %cpu%
 echo сборка:                        %display%
-echo MAC:                           %MAC%
+echo DLKM:                          %DLKM%
 ECHO.
 
 echo НАЖМИТЕ ЛЮБОЮ КЛАВИШУ ДЛЯ ПЕРЕХОДА В МЕНЮ & PAUSE
@@ -187,7 +198,7 @@ IF %menunr%==5 (START ADBAppControl.exe)
 IF %menunr%==6 (goto INSTALL)
 IF %menunr%==7 (ADB.TXT)
 IF %menunr%==8 (GOTO BACKUP)
-IF %menunr%==9 (START https://github.com/FURRY-LOVE/SUPER-ADB/blob/main/README.md )
+IF %menunr%==9 (START https://github.com/FURRY-LOVE/SUPER-ADB/blob/main )
 IF %menunr%==10 (adb shell screencap -p /sdcard/screencap.png && adb pull /sdcard/screencap.png & screencap.png & goto menu)
 IF %menunr%==11 (goto MENU2)
 IF %menunr%==12 (goto EXIT)
@@ -569,23 +580,13 @@ echo ║    6   =  ОЧИСТКА radio                                         
 echo ║————————————————————————————————————————————————————————————————————————║
 echo ║    7   =  сброс                                                        ║
 echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    8   =  Прошив system                                                ║
+echo ║    8   =  ОЧИСТКА vbmeta                                               ║ 
 echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    9   =  Прошив userdata                                              ║
+echo ║    9  =   ОЧИСТКА super                                                ║
 echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    10  =  Прошив recovery                                              ║
+echo ║    10  =  ДАЛЕЕ                                                        ║
 echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    11  =  Прошив boot                                                  ║
-echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    12  =  Прошив cache                                                 ║
-echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    13  =  Прошив radio                                                 ║
-echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    14  =  прошив в формате zip                                         ║
-echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    15  =  FLASH ALL                                                    ║
-echo ║————————————————————————————————————————————————————————————————————————║
-echo ║    16  =  MEHЮ                                                         ║
+echo ║    11  =  MEHЮ                                                         ║
 echo ╚════════════════════════════════════════════════════════════════════════╝ 
 
 SET /P WIPE0=ВЫБОР:
@@ -597,16 +598,133 @@ IF %WIPE0%==4 (fastboot erase boot & pause & goto WIPE0)
 IF %WIPE0%==5 (fastboot erase cache & pause & goto WIPE0)
 IF %WIPE0%==6 (fastboot erase radio & pause & goto WIPE0)
 IF %WIPE0%==7 (fastboot -w & pause & goto WIPE0)
-IF %WIPE0%==8 (GOTO system)
-IF %WIPE0%==9 (GOTO userdata)
-IF %WIPE0%==10 (GOTO recovery)
-IF %WIPE0%==11 (GOTO boot)
-IF %WIPE0%==12 (GOTO cache)
-IF %WIPE0%==13 (GOTO radio)
-IF %WIPE0%==14 (GOTO all)
-IF %WIPE0%==15 (GOTO ALL2 )
-IF %WIPE0%==16 (GOTO MENU)
+IF %WIPE0%==8 (fastboot erase vbmeta & pause & goto WIPE0)
+IF %WIPE0%==9 (fastboot erase super & pause & goto WIPE0)
+IF %WIPE0%==10 (GOTO WIPE01 )
+IF %WIPE0%==11 (GOTO MENU)
 GOTO WIPE0
+
+:WIPE01
+cls	
+COLOR B
+echo ╔════════════════════════════════════════════════════════════════════════╗
+echo ║    1  =  Прошив system                                                 ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    2  =  Прошив userdata                                               ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    3  =  Прошив recovery                                               ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    4  =  Прошив boot                                                   ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    5  =  Прошив cache                                                  ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    6  =  Прошив radio                                                  ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    7  =  прошив в формате zip                                          ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    8  =  FLASH ALL                                                     ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    9  =  прошиф vbmeta                                                 ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    10 =  прошиф super                                                  ║
+echo ║————————————————————————————————————————————————————————————————————————║
+echo ║    11 =  Назад                                                         ║
+echo ╚════════════════════════════════════════════════════════════════════════╝ 
+
+IF %WIPE01%==1 (GOTO system)
+IF %WIPE01%==2 (GOTO userdata)
+IF %WIPE01%==3 (GOTO recovery)
+IF %WIPE01%==4 (GOTO boot)
+IF %WIPE01%==5 (GOTO cache)
+IF %WIPE01%==6 (GOTO radio)
+IF %WIPE01%==7 (GOTO all)
+IF %WIPE01%==8 (GOTO ALL2 )
+IF %WIPE01%==9 (GOTO vbmeta)
+IF %WIPE01%==10 (GOTO super)
+IF %WIPE01%==11 (GOTO WIPE0)
+GOTO WIPE01
+
+:vbmeta
+cls
+color 5
+echo ╔════════════════════════════════════════════════════════════════════════╗
+echo ║                     ВЫБЕРИТЕ ФАИЛ прошифки vbmeta                      ║
+echo ╚════════════════════════════════════════════════════════════════════════╝
+setlocal enabledelayedexpansion
+:: Does powershell.exe exist within %PATH%?
+for %%I in (`powershell.exe`) do if "%%~$PATH:I" neq "" (
+    set chooser=powershell "Add-Type -AssemblyName System.windows.forms|Out-Null;$f=New-Object System.Windows.Forms.OpenFileDialog;$f.InitialDirectory='%cd%';$f.Filter='All Files (*.*)|*.*';$f.showHelp=$true;$f.ShowDialog()|Out-Null;$f.FileName"
+) else (
+rem :: If not, compose and link C# application to open file browser dialog
+    set chooser=%temp%\chooser.exe
+    >"%temp%\c.cs" echo using System;using System.Windows.Forms;
+    >>"%temp%\c.cs" echo class dummy{
+    >>"%temp%\c.cs" echo public static void Main^(^){
+    >>"%temp%\c.cs" echo OpenFileDialog f=new OpenFileDialog^(^);
+    >>"%temp%\c.cs" echo f.InitialDirectory=Environment.CurrentDirectory;
+    >>"%temp%\c.cs" echo f.Filter="All Files (*.*)|*.*";
+    >>"%temp%\c.cs" echo f.ShowHelp=true;
+    >>"%temp%\c.cs" echo f.ShowDialog^(^);
+    >>"%temp%\c.cs" echo Console.Write^(f.FileName^);}}
+    for /f "delims=" %%I in ('dir /b /s "%windir%\microsoft.net\*csc.exe"') do (
+        if not exist "!chooser!" "%%I" /nologo /out:"!chooser!" "%temp%\c.cs" 2>NUL
+    )
+    del "%temp%\c.cs"
+)
+
+:: Capture choice to a variable
+for /f "delims=" %%I in ('%chooser%') do set "filename=%%I"
+
+echo ╔════════════════════════════════════════════════════════════════════════╗
+echo ║                          ПРОШИВ vbmeta                                 ║
+echo ╚════════════════════════════════════════════════════════════════════════╝
+fastboot flash vbmeta %filename%
+echo ДЛЯ ПРОЖОЛЖЕНИЯ НАЖМИТЕ ЛЮБУЮ КЛАВИШУ & PAUSE
+GOTO WIPE0
+
+
+
+
+:super
+cls
+color 5
+echo ╔════════════════════════════════════════════════════════════════════════╗
+echo ║                     ВЫБЕРИТЕ ФАИЛ ПРОШИВКИ super                       ║
+echo ╚════════════════════════════════════════════════════════════════════════╝
+setlocal enabledelayedexpansion
+:: Does powershell.exe exist within %PATH%?
+for %%I in (`powershell.exe`) do if "%%~$PATH:I" neq "" (
+    set chooser=powershell "Add-Type -AssemblyName System.windows.forms|Out-Null;$f=New-Object System.Windows.Forms.OpenFileDialog;$f.InitialDirectory='%cd%';$f.Filter='All Files (*.*)|*.*';$f.showHelp=$true;$f.ShowDialog()|Out-Null;$f.FileName"
+) else (
+rem :: If not, compose and link C# application to open file browser dialog
+    set chooser=%temp%\chooser.exe
+    >"%temp%\c.cs" echo using System;using System.Windows.Forms;
+    >>"%temp%\c.cs" echo class dummy{
+    >>"%temp%\c.cs" echo public static void Main^(^){
+    >>"%temp%\c.cs" echo OpenFileDialog f=new OpenFileDialog^(^);
+    >>"%temp%\c.cs" echo f.InitialDirectory=Environment.CurrentDirectory;
+    >>"%temp%\c.cs" echo f.Filter="All Files (*.*)|*.*";
+    >>"%temp%\c.cs" echo f.ShowHelp=true;
+    >>"%temp%\c.cs" echo f.ShowDialog^(^);
+    >>"%temp%\c.cs" echo Console.Write^(f.FileName^);}}
+    for /f "delims=" %%I in ('dir /b /s "%windir%\microsoft.net\*csc.exe"') do (
+        if not exist "!chooser!" "%%I" /nologo /out:"!chooser!" "%temp%\c.cs" 2>NUL
+    )
+    del "%temp%\c.cs"
+)
+
+:: Capture choice to a variable
+for /f "delims=" %%I in ('%chooser%') do set "filename=%%I"
+
+echo ╔════════════════════════════════════════════════════════════════════════╗
+echo ║                          ПРОШИВ super                                  ║
+echo ╚════════════════════════════════════════════════════════════════════════╝
+fastboot flash super %filename%
+echo ДЛЯ ПРОЖОЛЖЕНИЯ НАЖМИТЕ ЛЮБУЮ КЛАВИШУ & PAUSE
+GOTO WIPE0
+
+
+
 
 :ALL2
 cls
@@ -1108,4 +1226,3 @@ GOTO MENU3
 
 :EXIT
 TASKKILL /IM ADB.EXE /T /f & TASKKILL /IM fastboot.exe /T /f & EXIT /B
-
