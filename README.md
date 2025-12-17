@@ -66,8 +66,6 @@
 -  
 - <span style="color: #795548;">**ResearchDownload**</span> - прошивка устройств на SpreadTrum и других процессорах [Подробнее](https://4pda.to/forum/index.php?showtopic=822515)
 - 
-- <span style="color: #3F51B5;">**SP Flash Tool**</span> - загрузка/обновление прошивок, восстановление устройств [Подробнее](https://4pda.to/forum/index.php?showtopic=469340)
-- 
 - <span style="color: #00BCD4;">**Полный набор команд**</span> ADB/Fastboot/Shell (файл ADB.txt)
 - 
 - <span style="color: #009688;">**SP-Flash-Tool+mtk_bypass**</span>
