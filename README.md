@@ -155,11 +155,11 @@
 <div align="center" style="margin: 30px 0;">
   НОВАЯ ВЕРСИЯ БУДЕТ 03.01.2026.21:27
 <a href="https://drive.google.com/file/d/1cR2YtrQrzwliReCIZdzU3okRlp-nkW00/view?usp=drive_link">
-  <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.5_0_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.5_822_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="0">
-  <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_0_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
   <a href="https://github.com/FURRY-LOVE/SUPER-ADB/releases">
-  <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_0_MB-00ff00?style=for-the-badge&logo=GitHub&logoColor=white" width="300" alt="Скачать">
+  <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=GitHub&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
 
@@ -167,6 +167,7 @@
 <div align="center">
 <a href="https://github.com/FURRY-LOVE/SUPER-ADB/discussions/">
   <img src="https://img.shields.io/badge/Предложения_и_обсуждения-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="Обсуждение, предложения">
+    поддержать автора (+79001859447 ВТБ)
 </a>
 </div>
 
