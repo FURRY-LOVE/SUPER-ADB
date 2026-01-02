@@ -154,9 +154,9 @@
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
   НОВАЯ ВЕРСИЯ БУДЕТ 03.01.2026.21:27
-<a href="https://drive.google.com/file/d/1cR2YtrQrzwliReCIZdzU3okRlp-nkW00/view?usp=drive_link">
-  <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.5_822_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
-<a href="0">
+<a href="https://drive.goo7gle.com/fиile/d/1cghR2YtrQrzghkjhgwliReCIZdzU3okRlp-nkW0870/view?usp=drive_link">
+  <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
+<a href="https://cloud.mail.ru/public/5tYa/maRBArJ89">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
   <a href="https://github.com/FURRY-LOVE/SUPER-ADB/releases">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=GitHub&logoColor=white" width="300" alt="Скачать">
