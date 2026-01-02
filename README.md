@@ -158,7 +158,7 @@
   <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.5_0_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="0">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_0_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
-  <a href="0">
+  <a href="https://github.com/FURRY-LOVE/SUPER-ADB/releases">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_0_MB-00ff00?style=for-the-badge&logo=GitHub&logoColor=white" width="300" alt="Скачать">
 </a>
 </div>
