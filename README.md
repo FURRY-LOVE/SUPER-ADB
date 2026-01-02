@@ -167,7 +167,6 @@
 <div align="center">
 <a href="https://github.com/FURRY-LOVE/SUPER-ADB/discussions/">
   <img src="https://img.shields.io/badge/Предложения_и_обсуждения-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="Обсуждение, предложения">
-    поддержать автора (+79001859447 ВТБ)
 </a>
 </div>
 
@@ -182,4 +181,5 @@
 программа неимеет вирусов (программы модифицырованые поэтому он жалуется)
 ПРОГРАММА СОБРАНА ИЗ ИСХОДНИКОВ И ОТКРЫТОГО КОДА !
 Сборка защищена лицензией General Public License v2 (GPL-2.0)
+  поддержать автора (+79001859447 ВТБ)
 
