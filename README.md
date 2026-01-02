@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/Язык-Русский-red?style=flat-square" alt="Русский">
   <img src="https://img.shields.io/badge/Режим-PORTABLE-blue?style=flat-square" alt="Portable">
   <img src="https://img.shields.io/badge/Лицензия-GPL_2.0-blue?style=flat-square" alt="Лицензия">
+   <img src="https://img.shields.io/badge/Дата_обновления-02.01.2026-blue?style=flat-square" alt="Лицензия">
 </p>
 
 <div align="center">
