@@ -153,7 +153,7 @@
 
 ## 📥 **Загрузка**
 <div align="center" style="margin: 30px 0;">
-<a href="https://drive.goo7gle.com/fиile/d/1cghR2YtrQrzghkjhgwliReCIZdzU3okRlp-nkW0870/view?usp=drive_link">
+<a href="">
   <img src="https://img.shields.io/badge/СКAЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=google-drive&logoColor=white" width="300" alt="Скачать">
 <a href="https://cloud.mail.ru/public/5tYa/maRBArJ89">
   <img src="https://img.shields.io/badge/СКАЧАТЬ_1.1.6_822_MB-00ff00?style=for-the-badge&logo=mail.ru&logoColor=white" width="300" alt="Скачать">
